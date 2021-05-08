@@ -26,6 +26,7 @@ export default {
         },
         register(){
             let post_data = {
+                // 参数必须与服务端入参一致，大小写敏感
                 username:this.username,
                 password:this.password,
                 email:this.email,
