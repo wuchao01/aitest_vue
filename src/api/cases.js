@@ -9,6 +9,12 @@ const cases = {
     },
     createCaseByFile(params){
         return axios.post('/testCase/list',params)
+    },
+    editCase(params){
+        return axios.put('/testCase/',params)
+    },
+    deleteCase(params){
+        return axios.delete('/testCase/',params)
     }
 }
 export default cases
